@@ -1,0 +1,7 @@
+.face-card {
+    height: 500px;
+    width: 500px;
+
+    border: 1px solid #0bc;
+    border-radius: 15px;
+}

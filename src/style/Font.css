@@ -1,0 +1,15 @@
+/* font defining */
+@font-face {
+    font-family: MineCraft;
+    src: url(../asset/font/MINECRAFT.ttf);
+}
+@font-face {
+    font-family: Typewriter;
+    src: url(../asset/font/Typewriter.ttf);
+  }
+
+
+/* making font classes */
+.font-minecraft {
+    font-family: MineCraft;
+}
