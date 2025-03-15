@@ -1,6 +1,9 @@
 .face-card {
+    box-sizing: border-box;
+    
     height: 500px;
-    width: 500px;
+    width: 100vw;
+    margin: 10px;
 
     border: 1px solid #0bc;
     border-radius: 15px;
