@@ -1,0 +1,58 @@
+/* Mainbody.jsx CSS part: */
+.mainBody {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+
+    /* Better change this image to a better one */
+    background-image: url(../asset/images/Tech-Time_poster.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+.row-style {
+    display: flex;
+    flex-direction: row;
+}
+
+/* BodyRow.jsx CSS part: */
+.bodyRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.divSize{
+    flex: 1;
+    height: 30vh;
+    width: 25vw;
+
+    margin: 5px;
+    padding: 5px;
+
+    border: 1px solid azure;
+    border-radius: 15px;
+}
+
+.bRInnerStyle {
+    align-items: center;
+    justify-content: center;
+    font-size: 10vh;
+    color: azure;
+    background-color: rgba(0, 0, 10, 0.7);
+    user-select: none;
+}
+.bRInnerStyle:active {
+    color: #999;
+    background-color: rgba(0, 0, 10, 1);
+    animation: shake 0.1s linear;
+}
+
+@keyframes shake {
+    0%, 100% {translate: 0px;}
+    25% {translate: 10px;}
+    75% {translate: -10px;}
+}

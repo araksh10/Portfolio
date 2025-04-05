@@ -1,10 +1,12 @@
 .face-card {
-    box-sizing: border-box;
-    
-    height: 500px;
-    width: 100vw;
-    margin: 10px;
+    display: flex;
+    justify-content: center;
 
-    border: 1px solid #0bc;
+    height: 500px;
+    width: 90vw;
+}
+
+.border-line {
+    border: 1px solid #0ad;
     border-radius: 15px;
 }
