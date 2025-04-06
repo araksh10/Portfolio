@@ -40,7 +40,8 @@
 .bRInnerStyle {
     align-items: center;
     justify-content: center;
-    font-size: 10vh;
+
+    font-size: 4vw;
     color: azure;
     background-color: rgba(0, 0, 10, 0.7);
     backdrop-filter: blur(10px);
