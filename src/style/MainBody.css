@@ -43,6 +43,7 @@
     font-size: 10vh;
     color: azure;
     background-color: rgba(0, 0, 10, 0.7);
+    backdrop-filter: blur(10px);
     user-select: none;
 }
 .bRInnerStyle:active {
